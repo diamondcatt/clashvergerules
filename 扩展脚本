@@ -7,13 +7,13 @@ function main(config) {
   let newRules = [
     //KEYWORD
     "DOMAIN-KEYWORD,aveai,DIRECT",
+    "DOMAIN-KEYWORD,bybit,GLOBAL",
     //SUFFIX
     "DOMAIN-SUFFIX,miaozhen.com,DIRECT",
     "DOMAIN-SUFFIX,streamlit.app,DIRECT",
     "DOMAIN-SUFFIX,cloudflare.com,DIRECT",
     "DOMAIN-SUFFIX,appstorrent.ru,DIRECT",
-    "DOMAIN-SUFFIX,61.com,DIRECT",
-    
+    "DOMAIN-SUFFIX,61.com,DIRECT"
   ];
   
   // 将新的规则添加到现有的规则中
