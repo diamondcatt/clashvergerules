@@ -14,12 +14,15 @@ function main(config) {
     "DOMAIN-KEYWORD,opensea,GLOBAL",
     "DOMAIN-KEYWORD,dexscreener,GLOBAL",
     "DOMAIN-KEYWORD,mikanani,GLOBAL",
+    "DOMAIN-KEYWORD,etherscan,GLOBAL",
+    "DOMAIN-KEYWORD,solscan,GLOBAL",
     //SUFFIX
     "DOMAIN-SUFFIX,miaozhen.com,DIRECT",
     "DOMAIN-SUFFIX,streamlit.app,DIRECT",
     "DOMAIN-SUFFIX,cloudflare.com,DIRECT",
     "DOMAIN-SUFFIX,appstorrent.ru,DIRECT",
-    "DOMAIN-SUFFIX,v1.mk,GLOBAL"
+    "DOMAIN-SUFFIX,v1.mk,GLOBAL",
+    "DOMAIN-SUFFIX,gmgn.ai,GLOBAL"
   ];
   
   // 将新的规则添加到现有的规则中
