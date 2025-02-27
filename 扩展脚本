@@ -1,0 +1,33 @@
+// Define main function (script entry)
+function main(config) {
+  // 读取现有的规则
+  let oldRules = config.rules;
+  
+  // 定义新的规则
+  let newRules = [
+    //KEYWORD
+    "DOMAIN-KEYWORD,aveai,DIRECT",
+    "DOMAIN-KEYWORD,bybit,GLOBAL",
+    "DOMAIN-KEYWORD,github,GLOBAL",
+    //SUFFIX
+    "DOMAIN-SUFFIX,miaozhen.com,DIRECT",
+    "DOMAIN-SUFFIX,streamlit.app,DIRECT",
+    "DOMAIN-SUFFIX,cloudflare.com,DIRECT",
+    "DOMAIN-SUFFIX,appstorrent.ru,DIRECT",
+    "DOMAIN-SUFFIX,v1.mk,GLOBAL",
+    "DOMAIN-SUFFIX,pancakeswap.finance,GLOBAL",
+    "DOMAIN-SUFFIX,uniswap.org,GLOBAL",
+    "DOMAIN-SUFFIX,opensea.io,GLOBAL",
+    "DOMAIN-SUFFIX,dexscreener.com,GLOBAL",
+    "DOMAIN-SUFFIX,mikanani.me,GLOBAL",
+  ];
+  
+  // 将新的规则添加到现有的规则中
+  oldRules = newRules.concat(oldRules);
+  
+  // 更新配置的规则
+  config.rules = oldRules;
+  
+  // 返回修改后的配置
+  return config;
+}
