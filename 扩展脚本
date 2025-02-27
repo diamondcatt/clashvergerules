@@ -7,22 +7,13 @@ function main(config) {
   let newRules = [
     //KEYWORD
     "DOMAIN-KEYWORD,aveai,DIRECT",
-    "DOMAIN-KEYWORD,bybit,GLOBAL",
-    "DOMAIN-KEYWORD,github,GLOBAL",
-    "DOMAIN-KEYWORD,uniswap,GLOBAL",
-    "DOMAIN-KEYWORD,pancakeswap,GLOBAL",
-    "DOMAIN-KEYWORD,opensea,GLOBAL",
-    "DOMAIN-KEYWORD,dexscreener,GLOBAL",
-    "DOMAIN-KEYWORD,mikanani,GLOBAL",
-    "DOMAIN-KEYWORD,etherscan,GLOBAL",
-    "DOMAIN-KEYWORD,solscan,GLOBAL",
     //SUFFIX
     "DOMAIN-SUFFIX,miaozhen.com,DIRECT",
     "DOMAIN-SUFFIX,streamlit.app,DIRECT",
     "DOMAIN-SUFFIX,cloudflare.com,DIRECT",
     "DOMAIN-SUFFIX,appstorrent.ru,DIRECT",
-    "DOMAIN-SUFFIX,v1.mk,GLOBAL",
-    "DOMAIN-SUFFIX,gmgn.ai,GLOBAL"
+    "DOMAIN-SUFFIX,61.com,DIRECT",
+    
   ];
   
   // 将新的规则添加到现有的规则中
