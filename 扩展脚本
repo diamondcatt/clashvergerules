@@ -14,7 +14,8 @@ function main(config) {
     "DOMAIN-SUFFIX,streamlit.app,DIRECT",
     "DOMAIN-SUFFIX,cloudflare.com,DIRECT",
     "DOMAIN-SUFFIX,appstorrent.ru,DIRECT",
-    "DOMAIN-SUFFIX,61.com,DIRECT"
+    "DOMAIN-SUFFIX,61.com,DIRECT",
+    "DOMAIN-SUFFIX,userapi.com,DIRECT"
   ];
   
   // 将新的规则添加到现有的规则中
