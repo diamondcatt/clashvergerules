@@ -6,7 +6,6 @@ function main(config) {
   // 定义新的规则
   let newRules = [
     //KEYWORD
-    "DOMAIN-KEYWORD,okx,DIRECT",
     "DOMAIN-KEYWORD,bybit,GLOBAL",
     //SUFFIX
     "DOMAIN-SUFFIX,miaozhen.com,DIRECT",
